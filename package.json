@@ -1,0 +1,31 @@
+{
+  "name": "node.js_api_with_jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjib-036/node.js_api_with_jwt.git"
+  },
+  "keywords": [],
+  "author": "Sanjib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjib-036/node.js_api_with_jwt/issues"
+  },
+  "homepage": "https://github.com/Sanjib-036/node.js_api_with_jwt#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "mongoose": "^5.12.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
