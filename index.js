@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 
 //Import routes
 const authRoute = require("./routes/auth");
+const postRoute = require("./routes/posts")
 
 
 //DB Connection
@@ -22,5 +23,6 @@ app.use(bodyParser.json());
 
 //Routes middleware
 app.use("/api/user", authRoute);
-
-app.listen(3000, () => console.log("Up and running in 3000"));
+app.use("/api/posts", postRoute)
+let port = 8000
+app.listen(port, () => console.log(`Up and running in ${port}`));
